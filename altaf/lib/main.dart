@@ -1,5 +1,8 @@
 import 'package:altaf/latihan.dart';
 import 'package:altaf/latihan2.dart';
+import 'package:altaf/listview/latihanlistview.dart';
+import 'package:altaf/listview/list_basic.dart';
+import 'package:altaf/listview/list_builder.dart';
 import 'package:flutter/material.dart';
 import 'package:altaf/text.dart';
 import 'package:altaf/container.dart';
@@ -75,12 +78,12 @@ class MyApp extends StatelessWidget {
       title: "Flutter Pertama",
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(
-          title: Text("Belajar Flutter"),
-          backgroundColor: Colors.pinkAccent,
-          centerTitle: true,
-        ),
-        body: Latihan2(),
+        // appBar: AppBar(
+        // title: Text("Latihan List View"),
+        // backgroundColor: Colors.pinkAccent,
+        // centerTitle: true,
+
+        body: latihanlistview(),
       ),
       // home: ContainerWidget(),
     );
